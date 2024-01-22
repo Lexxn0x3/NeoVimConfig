@@ -1,7 +1,7 @@
-
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
-  vim.fn.system({
+	--vim.api.nvim_echo({{lazypath, 'None'}, {'second chunk to echo', 'None'}}, false, {})
+	vim.fn.system({
     "git",
     "clone",
     "--filter=blob:none",
