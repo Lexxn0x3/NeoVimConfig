@@ -9,7 +9,7 @@ return{
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed={"lua_ls", "csharp_ls", "golangci_lint_ls", "html", "zls", "jdtls", "ltex", "pylyzer", "rust_analyzer"}
+        ensure_installed={"lua_ls", "csharp_ls", "golangci_lint_ls", "html", "zls", "jdtls", "ltex", "pylyzer", "rust_analyzer", "biome", "marksman", "taplo", "lemminx", "yamlls", "clangd", "bashls", "arduino_language_server", "tsserver", "intelephense"}
       })
     end
   },
