@@ -22,7 +22,7 @@ If you're daring enough to try out my setup, here's how you can get started:
 
 1. Clone this repo into your Neovim configuration folder:
     ```sh
-    git clone https://github.com/yourusername/your-repo-name.git ~/.config/nvim
+    git clone https://github.com/Lexxn0x3/NeoVimConfig.git ~/.config/nvim
     ```
 2. Open Neovim and run `:PlugInstall` to install the plugins.
 3. Enjoy your new, souped-up Neovim setup!
